@@ -15,8 +15,8 @@
         android:theme="@style/Theme.CodingWithCoffee"
         tools:targetApi="31">
         <activity
-            android:name=".BtmSheetActivity"
-            android:exported="true">
+            android:name=".DtPickerActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,11 +24,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".VideoPlayerActivity"
-            android:exported="true"
-            android:screenOrientation="landscape">
+            android:name=".BtmSheetActivity"
+            android:exported="true">
 
         </activity>
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
