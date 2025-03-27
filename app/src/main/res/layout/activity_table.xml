@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableActivity">
+
+    <TableLayout
+        android:id="@+id/tblLayoutScoreCard"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:text="Player Name"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Score"
+                android:textStyle="bold"
+                android:padding="8dp"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Rohit Sharma"
+                android:padding="8dp"/>
+            <TextView
+                android:text="129*"
+                android:padding="8dp"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
